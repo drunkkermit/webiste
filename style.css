@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size:55px;
+    position: absolute;
+    bottom: 28%;
+    left: 33%;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size:40px;
+}
+h3 {
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size:25px;
+}
+
+img {
+    margin-left:10px;
+}
+p {
+    color:black;
+    text-align: left;
+    font-size: 18px;
+}
+body {
+    background-image: url("https://images.alphacoders.com/838/838946.jpg");
+    /*background-repeat: repeat;*/
+    background-size: cover;
+    background-position: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a { 
+    text-align: center;
+}
+#beginbalk {
+    height: 30%;
+    width: 50%;
+    background-color: gray;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border:  8px ridge darkgray;
+}
+ul {
+    list-style-type: none;
+    font-size: 30px;
+}
+ul a {
+    background-color: #aaa1a1;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top:20px;
+    padding: 20px;
+    margin-right:5%;
+    margin-left:2%;
+}
+ul a:hover {
+    color: red;
+    background-color: #909090;
+}
+#text1 {
+    height: 95%;
+    width: 80%;
+    background-color: gray;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    border:  8px ridge darkgray;
+    display: flex;
+    float:left;
+}
+#menu {
+    height: 96%;
+    width: 20%;
+    background-color: gray;
+}
+#container {
+    display: flex;
+    height: 85%;
+    width: 80%;
+}
+#text2 {
+    height: 96%;
+    width: 79%;
+    background-color: gray;
+    float: right;
+    margin-top:2%;
+    margin-left:1%;
+}
+.image {
+    position:absolute;
+    right:12%;
+    bottom:4%;
+}
+#text2 a {
+    text-decoration: none;
+    color: black;
+    margin-top:20px;
+    font-size:20px;
+}
+#text2 a:hover {
+    color:black;
+}
